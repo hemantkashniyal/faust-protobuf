@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package hello;
+
+// Greeting represents a message you can tell a user.
+message Greeting {
+    string hello = 1;
+    uint32 message = 2;
+}

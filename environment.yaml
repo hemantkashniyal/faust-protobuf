@@ -1,0 +1,14 @@
+name: venv-faust-protobuf
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8
+- make
+- jq
+- pip
+- pip:
+  - faust
+  - protobuf
+  - grpcio
+  - grpcio-tools
