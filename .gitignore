@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 .vscode
 .history
+condaenv.*.requirements.txt
