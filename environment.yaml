@@ -1,13 +1,13 @@
 channels:
-- defaults
-- conda-forge
+  - defaults
+  - conda-forge
 dependencies:
-- python=3.8
-- make
-- jq
-- pip
-- pip:
-  - faust[debug]
-  - protobuf
-  - grpcio
-  - grpcio-tools
+  - python=3.11
+  - make
+  - jq
+  - pip
+  - pip:
+      - faust-streaming
+      - protobuf
+      - grpcio
+      - grpcio-tools
